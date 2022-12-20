@@ -50,6 +50,18 @@ ___
 - built-in Intel Wifi 
 - dGPU
 
+## Bluetooth
+
+If you will use the EFI for big sur do the next steps:
+
+- Download [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
+- open config.plist with OCAuxiliaryTools
+- Go to kernel 
+- for IntelBluetoothInjector.kext make it true
+
+Based on [OpenIntelWireless Website of IntelBluetoothFirmware.kext ](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey-and-newer)
+
+
 ## Fix Headphone Jack / ComboJack
 
 This is for ALC3246 Analog (ALC256) from (https://github.com/hackintosh-stuff/ComboJack)
