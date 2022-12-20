@@ -11,7 +11,7 @@ ___
 ## Installation
 
 1. Download the latest version of OpenCore from the official website (<https://github.com/acidanthera/OpenCorePkg>).
-1. Create a bootable USB drive using OpenCore and Use EFI-OC-for-KabyLake-PreInstall.zip in this repository to make sure that macOS installation succeeded
+1. Create a bootable USB drive using OpenCore and Use EFI-OC-for-KabyLake-PreInstall in this repository to make sure that macOS installation succeeded by renaming it to EFI and paste to USB EFI partition
 1. By default, macOS will setup freshly formatted drives with 200MB. then by using <a href="https://github.com/corpnewt/MountEFI">MountEFI</a> mount that partition and paste EFI-for-booting folder and rename it to EFI
 
 ## Working Components
