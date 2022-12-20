@@ -37,9 +37,10 @@ ___
 
 - HDMI
 - Battery readouts
-- Headphone audio output and input (wired and Bluetooth headphones)
+- Headphone audio output and input (wired and Bluetooth headphones) [how to work](#)
 - Keyboard and Trackpad (with gestures)
 - Intel Bluetooth
+- WiFi: tp-link TL-WN725N USB Adapter
 - USB ports
 - Keyboard and touchpad
 - Webcam
@@ -47,9 +48,26 @@ ___
 ## Not Working
 
 - built-in Intel Wifi 
+- dGPU
+
+## Fix Headphone Jack / ComboJack
+
+This is for ALC3246 Analog (ALC256) from (https://github.com/hackintosh-stuff/ComboJack)
+
+1. put ComboJack_Installer/VerbStub.kext in EFI/OC/kexts/
+1. Run ComboJack_Installer/install.sh in terminal (just drag and drop install.sh in terminal)
+
+    ```
+    ./ComboJack-master/ComboJack_Installer/install.sh 
+    ```
+
+1. reboot your laptop
+
+When you attach a headphone there will be a popup asking about headphone type. and earphone and mic work fine
 
 ## Credits
 
 - The OpenCore team (https://github.com/acidanthera/OpenCorePkg)
 - The OpenCore installation guide (https://dortania.github.io/OpenCore-Install-Guide/)
 - The hackintosh community (https://www.tonymacx86.com/)
+- ComboJack (https://github.com/hackintosh-stuff/ComboJack)
