@@ -35,17 +35,18 @@ ___
 
 ## Working Components
 
-- Intel 7th generation i7 processor
-- Display
-- Audio
-- Ethernet
-- WiFi and Bluetooth (using a compatible PCIe card)
+- HDMI
+- Battery readouts
+- Headphone audio output and input (wired and Bluetooth headphones)
+- Keyboard and Trackpad (with gestures)
+- Intel Bluetooth
 - USB ports
 - Keyboard and touchpad
+- Webcam
 
 ## Not Working
 
-- Graphics acceleration (using Intel UHD 620)
+- built-in Intel Wifi 
 
 ## Credits
 
