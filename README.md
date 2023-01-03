@@ -1,7 +1,12 @@
 # EFI for Dell Inspiron 15 5567 using OpenCore
 
-This repository contains the EFI folder for a successful hackintosh installation of macOS Big Sur or Monterey and the ability to update to Ventura on a Dell Inspiron 15 5567 laptop with an Intel 7th generation i7 processor.
+This repository contains the EFI folder for a successful hackintosh installation of macOS Big Sur or macOS Monterey and the ability to update to macOS Ventura (updated successfully) on a Dell Inspiron 15 5567 laptop with an Intel 7th generation i7 processor.
 
+___
+
+## Screenshot
+
+![about-mac-of-hackintosh-dell-5567](./docs/about%20mac.png)
 ___
 
 ## Laptop Specifications
@@ -12,7 +17,7 @@ ___
 
 - **Memory**: 8GB, 2400MHz, DDR4, up to 16GB (additional memory sold separately)
 
-- **Display**: 15.6-inch HD (1366 x 768) LED-Backlit Display
+- **Display**: 15.6-inch HD (1920 x 1080) LED-Backlit Display
 
 - **Video Cardy**:
   - iGPU: Intel HD Graphics 620
@@ -61,6 +66,7 @@ If you will use the EFI for big sur do the next steps:
 
 Based on [OpenIntelWireless Website of IntelBluetoothFirmware.kext ](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey-and-newer)
 
+⚠️ working well with macOS Ventura
 
 ## Fix Headphone Jack / ComboJack
 
@@ -76,6 +82,12 @@ This is for ALC3246 Analog (ALC256) from (https://github.com/hackintosh-stuff/Co
 1. reboot your laptop
 
 When you attach a headphone there will be a popup asking about headphone type. and earphone and mic work fine
+
+⚠️ working well with macOS Ventura
+
+### screenshot
+
+![combojack-for-dell-5567](./docs/ComboJack.png)
 
 ## Credits
 
