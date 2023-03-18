@@ -4,6 +4,10 @@ This repository contains the EFI folder for a successful hackintosh installation
 
 ___
 
+## Notes
+
+Updated successfully to OpenCore v 0.9.0 
+___
 ## Screenshot
 
 ![about-mac-of-hackintosh-dell-5567](./docs/about%20mac.png)
