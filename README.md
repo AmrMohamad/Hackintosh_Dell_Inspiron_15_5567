@@ -1,12 +1,13 @@
 # EFI for Dell Inspiron 15 5567 using OpenCore
 
-This repository contains the EFI folder for a successful hackintosh installation of macOS Big Sur or macOS Monterey and the ability to update to macOS Ventura (updated successfully) on a Dell Inspiron 15 5567 laptop with an Intel 7th generation i7 processor.
+This repository contains the EFI ( Updated to OpenCore  0.9.0 ) folder for a successful hackintosh installation of macOS Big Sur or macOS Monterey and the ability to update to macOS Ventura (updated successfully) on a Dell Inspiron 15 5567 laptop with an Intel 7th generation i7 processor.
 
 ___
 
 ## Notes
 
 Updated successfully to OpenCore v 0.9.0 
+
 ___
 ## Screenshot
 
