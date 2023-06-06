@@ -6,7 +6,7 @@ ___
 
 ## Notes
 
-Updated successfully to OpenCore v 0.9.0 
+Updated successfully to OpenCore [v0.9.2](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.2) 
 
 ___
 ## Screenshot
@@ -46,32 +46,47 @@ ___
 ## Working Components
 
 - HDMI
-- Battery readouts
-- Headphone audio output and input (wired and Bluetooth headphones) [how to work](#)
+- Battery readouts (Not tested, I removed my laptop battery )
+- Headphone audio output and input (wired and Bluetooth headphones) [How it work](#fix-headphone-jack--combojack)
 - Keyboard and Trackpad (with gestures)
-- Intel Bluetooth
-- WiFi: tp-link TL-WN725N USB Adapter
+- Intel Bluetooth (Intel(R) Dual Band Wireless-AC 3165) [How it work](#bluetooth)
+- built-in Intel Wifi (Intel(R) Dual Band Wireless-AC 3165) [How it work](#wifi)
+- WiFi: tp-link TL-WN725N USB Adapter (Optional)
 - USB ports
-- Keyboard and touchpad
 - Webcam
 
 ## Not Working
 
-- built-in Intel Wifi 
-- dGPU
+- dGPU -> AMD Radeon(TM) R7 M445 Graphics 2G GDDR5
 
 ## Bluetooth
 
-If you will use the EFI for big sur do the next steps:
+⚠️ **If You Will Use The EFI For macOS Big Sur** do the next steps:
 
 - Download [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
 - open config.plist with OCAuxiliaryTools
 - Go to kernel 
-- for IntelBluetoothInjector.kext make it true
+- For IntelBluetoothInjector.kext make it true
 
-Based on [OpenIntelWireless Website of IntelBluetoothFirmware.kext ](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey-and-newer)
+⚠️ **If Updating from Big Sur to Monterey or a higher version** do the next step:
+
+- Based on [OpenIntelWireless Website of IntelBluetoothFirmware.kext ](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey-and-newer) IntelBluetoothInjector.kext under Kernal->Add make it false or remove it.
 
 ⚠️ working well with macOS Ventura
+### screenshot of WiFi
+
+![working-bluetooth-Intel(R)_Dual_Band_Wireless-AC_3165](./docs/working%20BT.png)
+
+## Wifi
+Now I added itlwm.kext [v2.2.0](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0) and its true under Kernal->Add and download HeliPort app as WiFi control panel from [here](https://github.com/OpenIntelWireless/HeliPort/releases) and working at the same time with Bluetooth without any problem
+
+⚠️ **BUT** NEVER use both itlwm.kext and AirportItlwm.kext at the same time.
+
+### screenshot of WiFi
+
+<img src="./docs/wroking%20Wifi.png" width="35%" height="35%" alt="working-wifi-Intel(R)_Dual_Band_Wireless-AC_3165">
+
+⚠️ If BT and WiFi didn't work with you on macOS Ventura after the first time installation, Try install BigSur or Monterey then update to Ventura
 
 ## Fix Headphone Jack / ComboJack
 
