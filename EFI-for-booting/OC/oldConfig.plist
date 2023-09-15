@@ -310,7 +310,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.5 | Lilu.kext</string>
+                    <string>V1.6.7 | Lilu.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -328,7 +328,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1</string>
+                    <string>V1.3.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -508,7 +508,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.4 | WhateverGreen.kext</string>
+                    <string>V1.6.6 | WhateverGreen.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -706,7 +706,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.2 | AppleALC.kext</string>
+                    <string>V1.8.4 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -760,7 +760,7 @@
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1 | SMCBatteryManager.kext</string>
+                    <string>V1.3.2 | SMCBatteryManager.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -778,7 +778,7 @@
                     <key>BundlePath</key>
                     <string>SMCDellSensors.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1 | SMCDellSensors.kext</string>
+                    <string>V1.3.2 | SMCDellSensors.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -796,7 +796,7 @@
                     <key>BundlePath</key>
                     <string>SMCLightSensor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1 | SMCLightSensor.kext</string>
+                    <string>V1.3.2 | SMCLightSensor.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -814,7 +814,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1 | SMCProcessor.kext</string>
+                    <string>V1.3.2 | SMCProcessor.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -832,7 +832,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1 | SMCSuperIO.kext</string>
+                    <string>V1.3.2 | SMCSuperIO.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -886,7 +886,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -904,7 +904,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothInjector.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -922,7 +922,7 @@
                     <key>BundlePath</key>
                     <string>IntelBTPatcher.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -940,7 +940,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.6</string>
+                    <string>V2.6.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1315,6 +1315,8 @@
                 <false/>
                 <key>HideAuxiliary</key>
                 <true/>
+                <key>InstanceIdentifier</key>
+                <string></string>
                 <key>LauncherOption</key>
                 <string>Disabled</string>
                 <key>LauncherPath</key>
@@ -1795,7 +1797,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02814200J9J1JHJA</string>
+                <string>C02833200GUJ1JH1F</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1809,9 +1811,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro14,3</string>
                 <key>SystemSerialNumber</key>
-                <string>C02WJ0QJHTD5</string>
+                <string>C02X7JZLHTDS</string>
                 <key>SystemUUID</key>
-                <string>983ABE22-E9B0-409C-919B-D5A8812863A6</string>
+                <string>C92221F9-CB84-4CA1-95AD-C2F399AF4C53</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1995,6 +1997,8 @@
             <dict>
                 <key>ClearScreenOnModeSwitch</key>
                 <false/>
+                <key>ConsoleFont</key>
+                <string></string>
                 <key>ConsoleMode</key>
                 <string></string>
                 <key>DirectGopRendering</key>
@@ -2064,6 +2068,8 @@
                 <false/>
                 <key>OSInfo</key>
                 <false/>
+                <key>PciIo</key>
+                <false/>
                 <key>UnicodeCollation</key>
                 <false/>
             </dict>
@@ -2095,6 +2101,8 @@
                 <integer>-1</integer>
                 <key>ResizeUsePciRbIo</key>
                 <true/>
+                <key>ShimRetainProtocol</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
