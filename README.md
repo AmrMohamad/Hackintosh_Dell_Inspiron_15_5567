@@ -50,7 +50,7 @@ ___
 - Headphone audio output and input (wired and Bluetooth headphones) [How it work](#fix-headphone-jack--combojack)
 - Keyboard and Trackpad (with gestures)
 - Intel Bluetooth (Intel(R) Dual Band Wireless-AC 3165) [How it work](#bluetooth)
-- built-in Intel Wifi (Intel(R) Dual Band Wireless-AC 3165) [How it work](#wifi)
+- built-in Intel Wifi (Intel(R) Dual Band Wireless-AC 3165) -> with this branch its replaced with Dell DW1560 (BCM94352Z) [How it work](#wifi)
 - WiFi: tp-link TL-WN725N USB Adapter (Optional)
 - USB ports
 - Webcam
@@ -61,32 +61,21 @@ ___
 
 ## Bluetooth
 
-⚠️ **If You Will Use The EFI For macOS Big Sur** do the next steps:
+its the BCM_4350C2
 
-- Download [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
-- open config.plist with OCAuxiliaryTools
-- Go to kernel 
-- For IntelBluetoothInjector.kext make it true
+### screenshot of Bluetooth
+The Bluetooth is working natively without any problem
 
-⚠️ **If Updating from Big Sur to Monterey or a higher version** do the next step:
-
-- Based on [OpenIntelWireless Website of IntelBluetoothFirmware.kext ](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey-and-newer) IntelBluetoothInjector.kext under Kernal->Add make it false or remove it.
-
-⚠️ working well with macOS Ventura
-### screenshot of WiFi
-
-![working-bluetooth-Intel(R)_Dual_Band_Wireless-AC_3165](./docs/working%20BT.png)
+![working-bluetooth-DW1560](./docs/working%20BT.png)
 
 ## Wifi
-Now I added itlwm.kext [v2.2.0](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0) and its true under Kernal->Add and download HeliPort app as WiFi control panel from [here](https://github.com/OpenIntelWireless/HeliPort/releases) and working at the same time with Bluetooth without any problem
+Now I disable itlwm.kext and for 1560 everything is okay just according to this [blog](https://elitemacx86.com/threads/how-to-fix-broadcom-wifi-on-macos-sonoma-and-later.1415/) we need to add [OpenCore Legacy Patcher(OCLP)](https://dortania.github.io/OpenCore-Legacy-Patcher/) start from step 9
 
-⚠️ **BUT** NEVER use both itlwm.kext and AirportItlwm.kext at the same time.
+⚠️ **BUT** NEVER use both itlwm.kext and AirportItlwm.kext at the same time and NEVER USE THEM WITH BCM chips
 
 ### screenshot of WiFi
 
-<img src="./docs/wroking%20Wifi.png" width="35%" height="35%" alt="working-wifi-Intel(R)_Dual_Band_Wireless-AC_3165">
-
-⚠️ If BT and WiFi didn't work with you on macOS Ventura after the first time installation, Try install BigSur or Monterey then update to Ventura
+<img src="./docs/wroking%20Wifi.png" width="65%" height="45%" alt="working-wifi-DW1650">
 
 ## Fix Headphone Jack / ComboJack
 
@@ -111,6 +100,7 @@ When you attach a headphone there will be a popup asking about headphone type. a
 
 ## Credits
 
+- Elitemacx86 (https://elitemacx86.com/)
 - The OpenCore team (https://github.com/acidanthera/OpenCorePkg)
 - The OpenCore installation guide (https://dortania.github.io/OpenCore-Install-Guide/)
 - The hackintosh community (https://www.tonymacx86.com/)
