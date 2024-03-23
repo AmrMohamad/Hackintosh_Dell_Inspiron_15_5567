@@ -1,12 +1,12 @@
 # EFI for Dell Inspiron 15 5567 using OpenCore
 
-This repository contains the EFI ( Updated to OpenCore  0.9.2 ) folder for a successful hackintosh installation of macOS Big Sur or macOS Monterey and the ability to update to macOS Ventura (updated successfully) on a Dell Inspiron 15 5567 laptop with an Intel 7th generation i7 processor.
+This repository contains the EFI ( Updated to OpenCore  0.9.8 ) folder for a successful hackintosh installation of macOS Big Sur or macOS Monterey and the ability to update to macOS Ventura and Sonoma 14.3.1 (updated successfully) on a Dell Inspiron 15 5567 laptop with an Intel 7th generation i7 processor.
 
 ___
 
 ## Notes
 
-Updated successfully to OpenCore [v0.9.2](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.2) 
+Updated successfully to OpenCore [v0.9.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.8) 
 
 ___
 ## Screenshot
@@ -87,6 +87,15 @@ Now I added itlwm.kext [v2.2.0](https://github.com/OpenIntelWireless/itlwm/relea
 <img src="./docs/wroking%20Wifi.png" width="35%" height="35%" alt="working-wifi-Intel(R)_Dual_Band_Wireless-AC_3165">
 
 ⚠️ If BT and WiFi didn't work with you on macOS Ventura after the first time installation, Try install BigSur or Monterey then update to Ventura
+
+⚠️⚠️⚠️ I replaced my current wifi card with DELL DW1560
+
+to switch to Supported EFI:
+
+``` bash
+git checkout EFI-1560-wifi
+```
+and read the instructions of how to enable it.
 
 ## Fix Headphone Jack / ComboJack
 
